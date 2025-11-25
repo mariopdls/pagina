@@ -1,0 +1,165 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white; /* Fondo blanco */
+}
+
+
+.main-container {
+    display: flex; 
+}
+
+.sidebar {
+    width: 25%; /* La barra lateral ocupa un cuarto de la pantalla */
+    background-color:#D999E9;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    padding-bottom: 250%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    
+}
+
+.content {
+    width: 75%; 
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+
+p {
+    color: black;
+    text-align: left;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: small;
+    margin: 20px; ;
+}
+
+.content {
+    background-color: #ffffff;
+}
+
+/* Footer */
+
+
+footer {
+    background-color: #888; /* Gris para el pie de página */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.footer{
+
+    padding: 25px;
+    background-color: hsl(0, 0%, 91%);
+    
+}
+
+.direccionfoot{
+    float: left;
+    margin: 20px;
+    color: #000;
+    text-align: justify;
+}
+
+.contactofoot {
+    float: left;
+    margin: 20px;
+    color: #000;
+    text-align: justify;
+}
+
+.derechos {
+    float: left;
+    margin: 20px;
+    color: #000;
+    text-align: justify;
+}
+
+
+/* botones */
+
+
+.boton1 {
+    padding: 40px;
+    padding: 40px;
+    border-radius: 7%;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 15px;
+}
+
+.buttoncito {
+    background-color: white; 
+    color: #000; 
+    margin: 20px;
+    padding-block: 20px;
+    cursor:pointer;
+}
+
+.botonayuda{
+    cursor: pointer;
+}
+
+.puntoimage{
+    cursor:pointer
+}
+
+.botonnoticias{
+    cursor: pointer;
+
+}
+
+.botonexp{
+    cursor: pointer;
+
+}
+
+.botoneducacion{
+    cursor: pointer;
+
+}
+
+/* Imagenes */
+
+.imagenizq{
+
+    width: 140px;
+    height: 140px;
+    float: left;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.imagen5{
+    border-radius: 4%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imagen6 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+/*Contenedor */
+
+.caja {
+  width: 440px;
+  height: 300px;
+  background: #eed7f1;
+  border-radius: 20px;
+  color: white;
+  display: flex; flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  margin: 3%;
+  margin-top: 2%;
+  margin-left: 33%;
+}

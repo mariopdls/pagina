@@ -1,0 +1,141 @@
+/*   BASE */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white; /* Fondo blanco */
+}
+
+p {
+    color: black;
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: small;
+    margin: 20px;
+}
+
+/*  LAYOUT GENERAL */
+
+.main-container {
+    display: flex;
+}
+
+.content {
+    width: 75%;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.content {
+    background-color: #ffffff; /* repetido, conservado */
+}
+
+/* SIDEBAR */
+
+
+.sidebar {
+    width: 25%;
+    background-color: #D999E9;
+    color: white;
+    padding: 35px;
+    padding-bottom:60%; /* repetido, conservado */
+}
+
+/* Elementos del sidebar */
+
+.logo-img {
+    margin: 20px;
+    cursor: pointer;;
+}
+
+.titulo-sidebar {
+    margin: 20px;
+    font-size: 30px;
+}
+
+.volver-inicio {
+    margin-left: 20px;
+    color: black;
+    cursor: pointer;
+}
+
+/*  NOTICIAS */
+
+.titulo-noticia {
+    margin-left: 40px;
+    margin-top: 60px;
+}
+
+.fecha-noticia {
+    margin-left: 40px;
+}
+
+.texto-noticia {
+    margin-left: 40px;
+    margin-right: 500px;
+    text-align: justify;
+}
+
+/* Noticias cortas */
+
+.noticias-cortas {
+    display: flex;
+    gap: 40px;
+    margin-left: 50px;
+    margin-right: 40px;
+}
+
+.noticias-cortas-titulo {
+    margin-left: 40px;
+}
+
+.noticia-corta {
+    width: 50%;
+}
+
+.noticia-corta-subtitulo {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.texto-noticia-corta {
+    margin-left: 0;     /* ELIMINA el margen gigante */
+    margin-right: 300px;
+    text-align: justify;
+}
+
+/*   IMÁGENES */
+
+.imagenizq {
+    width: 140px;
+    height: 140px;
+    float: left;
+    padding: 10px;
+}
+
+/*   FOOTER */
+
+footer {
+    background-color: #888; /* Gris para el pie de página */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer {
+    padding: 25px;
+    background-color: hsl(0, 0%, 91%);
+}
+
+.direccionfoot,
+.contactofoot,
+.derechos {
+    float: left;
+    margin: 20px;
+    color: #000;
+    text-align: justify;
+}
