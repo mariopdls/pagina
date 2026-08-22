@@ -1,157 +1,154 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página de ejemplo</title>
-    <link rel="stylesheet" href="../styles/pideayuda.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Pide ayuda: recursos, consejos y puntos de apoyo para mujeres en situación de vulnerabilidad.">
+  <title>Pide ayuda | Vidas Libres</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles/style.css">
 </head>
-
 <body>
-    <div class="main-container">
+  <header class="site-header">
+    <div class="container nav">
+      <a href="../index.html" class="brand" aria-label="Inicio Vidas Libres">
+        <img src="../images/image1.png" alt="Logo Vidas Libres">
+        <span>Vidas Libres</span>
+      </a>
 
-        <label for="portada"></label>
+      <nav class="main-nav" aria-label="Navegación principal">
+        <a href="../index.html">Inicio</a>
+        <a href="quienessomos.html">Quiénes somos</a>
+        <a href="pideayuda.html">Pide ayuda</a>
+        <a href="NOTICIAS.html">Noticias</a>
+        <a href="EDUCACION.html">Educación</a>
+        <a href="formulario.html">Contacto</a>
+      </nav>
 
-        <aside class="sidebar">
-            <div>
-                <label for="logo"></label>
-                <img src="../images/image1.png" height="120" id="logo" name="logo" class="logo-img" onclick="location.href='../index.html'"> 
-                <h1 class="sidebar-title">Pide ayuda.</h1>      
-                <h4 class="volver-inicio" onclick="location.href='../index.html'">Volver a inicio</h4>
-            </div>  
-        </aside>
-        
+      <a class="btn btn-primary" href="formulario.html">Contactar</a>
+    </div>
+  </header>
 
-        <div class="puntovioleta">
-            <label for="puntovioleta"></label>
-
-            <h1 class="section-title">Puntos Violeta en La Rinconada</h1>
-
-            <iframe 
-                src="https://www.google.com/maps/d/u/0/embed?mid=15Ajke_IJlrp_luwgeQ4WyxBgRmjRO7M&ehbc=2E312F" 
-                width="640" height="480" 
-                class="mapa">
-            </iframe>
-
-            <p class="texto-centro ancho-medio">
-                Si alguna vez necesitas ayuda o información, puedes acercarte al Punto Violeta más cercano —no solo en tu municipio, sino también en otros lugares—, donde personal especializado te escuchará y te acompañará de forma confidencial.
-            </p>
-
-            <br><br><br>
-
-            <h1 class="section-title">Teléfonos de emergencia</h1>
-
-            <p class="texto-centro">Encuentra apoyo en los recursos que te ofrecemos:</p>
-
-    <div class="logos-emergencias">
-
-        <div class="logo-box">
-            <img src="../images/Badge_of_the_National_Police_Corps_of_Spain.svg" class="logo-emer logo1">
-            <p class="logo-texto">Policía Nacional (091)</p>
-        </div>
-
-        <div class="logo-box">
-            <img src="../images/Escudo_Oficial_Guardia_Civil.svg" class="logo-emer logo2">
-            <p class="logo-texto">Guardia Civil (062)</p>
-        </div>
-
-        <div class="logo-box">
-            <img src="../images/016.png" class="logo-emer logo3">
-            <p class="logo-texto">Teléfono 016</p>
-        </div>
-
-        <div class="logo-box">
-            <img src="../images/061.png" class="logo-emer logo4">
-            <p class="logo-texto">Emergencias sanitarias (061)</p>
-        </div>
-
+  <main class="page-shell">
+    <div class="container page-hero">
+      <p class="eyebrow">Pide ayuda</p>
+      <h1>No estás sola. Te escuchamos y te acompañamos.</h1>
     </div>
 
-    <div>
-        <div class="contenedor">
-        <div class="card">
-            <h3>Cuida lo que compartes</h3>
-            <p>Evita publicar tu ubicación, rutinas o información personal en redes. Cualquier dato puede ser usado para controlar o localizar sin tu consentimiento.</p>
-        </div>
+    <div class="container resource-layout">
+      <div class="content-panel">
+        <p class="section-tag">Puntos Violeta</p>
+        <h2>Recursos cercanos en La Rinconada y entorno.</h2>
+        <p>
+          Si necesitas información, apoyo o orientación, puedes acercarte a un Punto Violeta o contactar con servicios especializados. La ayuda puede ser confidencial y se ofrece con respeto, escucha y acompañamiento.
+        </p>
 
-        <div class="card">
-            <h3>Guarda pruebas</h3>
-            <p>Capturas de pantalla, mensajes, audios o correos pueden ser fundamentales si decides pedir ayuda o denunciar. Guarda todo en un sitio seguro.</p>
+        <div class="video-wrapper" style="margin-top:1.4rem;">
+          <iframe src="https://www.google.com/maps/d/u/0/embed?mid=15Ajke_IJlrp_luwgeQ4WyxBgRmjRO7M&ehbc=2E312F" title="Mapa de puntos violeta"></iframe>
         </div>
+      </div>
 
-        <div class="card">
-            <h3>Habla por canales seguros</h3>
-            <p>Si sospechas que alguien revisa tu móvil o tus redes, usa aplicaciones con cifrado o dispositivos de confianza. La privacidad es protección.</p>
+      <aside class="emergency-panel">
+        <p class="section-tag">Emergencias</p>
+        <h2>Atención inmediata</h2>
+        <div class="emergency-list">
+          <div class="emergency-item">
+            <div class="icon">091</div>
+            <div><strong>Policía Nacional</strong><br>Urgencias</div>
+          </div>
+          <div class="emergency-item">
+            <div class="icon">062</div>
+            <div><strong>Guardia Civil</strong><br>Urgencias</div>
+          </div>
+          <div class="emergency-item">
+            <div class="icon">016</div>
+            <div><strong>Teléfono 016</strong><br>Violencia de género</div>
+          </div>
+          <div class="emergency-item">
+            <div class="icon">061</div>
+            <div><strong>Emergencias sanitarias</strong><br>Atención urgente</div>
+          </div>
         </div>
-
-        <div class="card">
-            <h3>Pide ayuda siempre</h3>
-            <p>Si algo te preocupa o te hace sentir insegura, acércate a tu Punto Violeta o a cualquier recurso de apoyo. Te escuchan sin juzgar.</p>
-        </div>
-        <div class="card">
-            <h3>No te dejes manipular</h3>
-            <p>Tú tienes opinion y criterio propio. No tengas miedo de opinar y que nadie calle tu voz.</p>
-        </div>
-        <div class="card">
-            <h3>Quiérete</h3>
-            <p>Tú vales más que nadie en este mundo. Eres única y especial, y por ello deberías estar orgullosa.</p>
-        </div>
-    </div>    
-
-    <div>
-        <div class="titulo-recursos">
-            <h1> Recursos para familias</h1>
-        </div>
-        <div class="texto-recursos">
-            <p>Acompañar a una mujer que sufre o ha sufrido violencia de género no siempre es fácil. A veces surgen dudas, miedo a decir algo inadecuado o simplemente el deseo de ayudar sin saber cómo hacerlo. Aquí encontrarás orientación, herramientas y contactos útiles para comprender mejor la situación, escuchar sin juzgar y actuar con respeto:</p>
-        </div>
+      </aside>
     </div>
 
-    <div class="recuadro-recursos">
+    <div class="container" style="margin-top: 2rem;">
+      <div class="section-header">
+        <p class="section-tag">Consejos de seguridad</p>
+        <h2>Medidas para cuidar tu bienestar.</h2>
+      </div>
 
-    <h2 class="titulo-recursos">Recursos</h2>
+      <div class="value-grid">
+        <article class="card">
+          <div class="card-icon">A</div>
+          <h3>Cuida tu privacidad</h3>
+          <p>Evita compartir tu ubicación, rutinas o información personal en redes, especialmente si hay control o vigilancia.</p>
+        </article>
 
-    <div class="item-recurso">
-        <img src="../images/ESPAÑA.jpg" class="icono-recurso">
-        <div>
-            <a href="https://www.igualdad.gob.es" class="recurso-titulo">Ministerio de Igualdad.</a>
-            <p class="recurso-descripcion">Gobierno de España.</p>
-        </div>
+        <article class="card">
+          <div class="card-icon">B</div>
+          <h3>Guarda pruebas</h3>
+          <p>Fotografías, mensajes, audios y correos son documentación útil para pedir ayuda o denunciar.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">C</div>
+          <h3>Busca ayuda</h3>
+          <p>Hablar con personas de confianza, un servicio profesional o un espacio seguro puede cambiar tu situación.</p>
+        </article>
+      </div>
     </div>
 
-    <div class="item-recurso">
-        <img src="../images/foro.jpg" class="icono-recurso">
-        <div>
-            <a href="https://forum.generationequality.org/es" class="recurso-titulo">Foro relacionado.</a>
-            <p class="recurso-descripcion">Mujeres libres, mujeres en paz.</p>
+    <div class="container" style="margin-top: 2rem;">
+      <div class="download-box">
+        <h3>Recursos útiles</h3>
+        <div class="download-item">
+          <div class="mini-icon">M</div>
+          <div>
+            <a href="https://www.igualdad.gob.es" target="_blank" rel="noreferrer">Ministerio de Igualdad</a>
+            <p>Información institucional y recursos de apoyo.</p>
+          </div>
         </div>
+
+        <div class="download-item">
+          <div class="mini-icon">F</div>
+          <div>
+            <a href="https://forum.generationequality.org/es" target="_blank" rel="noreferrer">Foro de Igualdad</a>
+            <p>Propuestas, documentación y espacios de reflexión.</p>
+          </div>
+        </div>
+
+        <div class="download-item">
+          <div class="mini-icon">D</div>
+          <div>
+            <a href="https://www.amnesty.org/es/what-we-do/discrimination/womens-rights" target="_blank" rel="noreferrer">Derechos de las mujeres</a>
+            <p>Información sobre protección y derechos fundamentales.</p>
+          </div>
+        </div>
+      </div>
     </div>
+  </main>
 
-    <div class="item-recurso">
-        <img src="../images/derechos.png" class="icono-recurso">
-        <div>
-            <a href="https://www.amnesty.org/es/what-we-do/discrimination/womens-rights" class="recurso-titulo">Derechos de las mujeres</a>
-            <p class="recurso-descripcion">Colaboratorias.</p>
-        </div>
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="../index.html" class="brand" aria-label="Vidas Libres">
+          <img src="../images/image1.png" alt="Logo Vidas Libres">
+          <span>Vidas Libres</span>
+        </a>
+      </div>
+
+      <nav class="footer-links" aria-label="Enlaces del pie de página">
+        <a href="quienessomos.html">Quiénes somos</a>
+        <a href="pideayuda.html">Pide ayuda</a>
+        <a href="NOTICIAS.html">Noticias</a>
+        <a href="formulario.html">Contacto</a>
+      </nav>
+
+      <p>© 2026 Vidas Libres. Todos los derechos reservados.</p>
     </div>
-
-</div>
-</body>
-
-    </div>
-    <footer class="footer">
-        <div>
-            <img src="../images/image1.png" class="imagenizq">
-        </div>
-
-        <div>
-            <section class="direccionfoot"><strong>Dirección</strong><br> <br> C/ Manuel de Rodas, 34 <br> La Rinconada <br>41309 <br>(Sevilla)</section>
-            <section class="contactofoot"> <strong>Contacto</strong><br> <br> vidaslibres@figma.com <br> Instagram: vidaslibres <br>X: vidaslibres</section>
-            <section class="derechos"> Todos los derechos reservados
-        </div>
-    </footer>
-
-
-
+  </footer>
 </body>
 </html>

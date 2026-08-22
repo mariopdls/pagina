@@ -1,111 +1,107 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página de ejemplo</title>
-    <link rel="stylesheet" href="../styles/educacion.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Educación y prevención para una sociedad más igualitaria y respetuosa.">
+  <title>Educación | Vidas Libres</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles/style.css">
 </head>
-
 <body>
+  <header class="site-header">
+    <div class="container nav">
+      <a href="../index.html" class="brand" aria-label="Inicio Vidas Libres">
+        <img src="../images/image1.png" alt="Logo Vidas Libres">
+        <span>Vidas Libres</span>
+      </a>
 
-    <div class="main-container">
+      <nav class="main-nav" aria-label="Navegación principal">
+        <a href="../index.html">Inicio</a>
+        <a href="quienessomos.html">Quiénes somos</a>
+        <a href="pideayuda.html">Pide ayuda</a>
+        <a href="NOTICIAS.html">Noticias</a>
+        <a href="EDUCACION.html">Educación</a>
+        <a href="formulario.html">Contacto</a>
+      </nav>
 
-        <aside class="sidebar">
-            <div>
-                <img src="../images/image1.png" height="120" id="logo" class="logo-img" onclick="location.href='../index.html'">
-                <h1 class="titulo-sidebar">Educación y <br> prevención.</h1>
-                <h4 class="volver-inicio" onclick="location.href='../index.html'">Volver a inicio</h4>
-            </div>
-        </aside>
+      <a class="btn btn-primary" href="formulario.html">Contactar</a>
+    </div>
+  </header>
 
-        <div class="videoedu">
+  <main class="page-shell">
+    <div class="container page-hero">
+      <p class="eyebrow">Prevención</p>
+      <h1>Educación para construir relaciones sanas, respetuosas y libres de violencia.</h1>
+    </div>
 
-            <h1 class="titulo_edu">Corto educativo: CONTRASEÑA.</h1>
-            <br>
+    <div class="container resource-layout">
+      <div class="content-panel">
+        <p class="section-tag">Corto educativo</p>
+        <h2>CONTRASEÑA</h2>
+        <div class="video-wrapper" style="margin-top:1.4rem;">
+          <iframe src="https://www.youtube.com/embed/tFop_rECYXI" title="Corto educativo CONTRASEÑA" allowfullscreen></iframe>
+        </div>
+      </div>
 
-            <iframe width="883" height="505"
-                src="https://www.youtube.com/embed/tFop_rECYXI"
-                title="CONTRASEÑA - Corto para prevenir la violencia de género en adolescentes"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin"
-                allowfullscreen
-                class="videofull">
-            </iframe>
+      <aside class="emergency-panel">
+        <p class="section-tag">Mensaje clave</p>
+        <h2>El respeto no se negocia.</h2>
+        <p>
+          La violencia de género puede aparecer en gestos pequeños: comentarios humillantes, control, celos, aislamiento o actitudes que normalizan el abuso. Educarnos es la primera forma de prevenirla.
+        </p>
 
-            <br><br>
+        <ul class="info-list">
+          <li><strong>1</strong> Respetar siempre las decisiones ajenas.</li>
+          <li><strong>2</strong> Escuchar sin juzgar ni controlar.</li>
+          <li><strong>3</strong> Pedir ayuda cuando algo no se siente bien.</li>
+        </ul>
+      </aside>
+    </div>
 
-            <p class="textoedu">
-                En el día a día, en los pasillos de la escuela, en las redes sociales o entre amistades, construimos nuestras formas de relacionarnos. Cada palabra, gesto o actitud puede fortalecer el respeto o, por el contrario, contribuir a la desigualdad.
-                <br><br>
-                Por eso, es importante detenernos a pensar: ¿cómo estamos tratando a las personas que nos rodean? ¿Estamos actuando desde el respeto y la empatía?
-                La violencia de género no siempre se muestra de manera evidente. A veces se esconde en bromas que humillan, en celos disfrazados de amor, en controlar con quién habla una persona o en decirle cómo debe vestir. Estas actitudes no son muestras de cariño, sino señales de desigualdad y falta de respeto.
-                <br><br>
-                Construir relaciones sanas y libres de violencia comienza con gestos simples: escuchar sin juzgar, respetar las decisiones de los demás, reconocer nuestras emociones y pedir ayuda cuando algo nos hace daño o incomoda.
-                <br><br>
-                Promover la igualdad de género no es solo tarea de unos pocos, sino una responsabilidad compartida. Cada uno y cada una puede aportar a un entorno escolar más justo y empático.
-                <br><br>
-                Imaginemos una escuela donde nadie tenga miedo de ser quien es, donde todas las voces sean escuchadas y donde el respeto sea la base de cada vínculo. Esa escuela es posible, y empieza con nosotros.
-            </p>
-
-            <!-- CUADRO DE CONTENIDO DESCARGABLE -->
-            <div class="cuadro">
-
-                <h2>Contenido descargable</h2>
-
-                <div class="item">
-                    <img src="../images/ESPAÑA.jpg" alt="Gobierno">
-                    <div>
-                        <a href="https://www.igualdad.gob.es/wp-content/uploads/EEVM_LF.pdf">Prevención contra el machismo.</a>
-                        <p>Artículo del Gobierno.</p>
-                    </div>
-                </div>
-
-                <div class="item">
-                    <img src="../images/foro.jpg" alt="Feminismo">
-                    <div>
-                        <a href="https://mujereslibresmujeresenpaz.org/foro-modulo-5-testimonios-de-victimas-de-violencia-vicaria-y-violencia-de-genero-institucional">Ayuda, ¿Me están maltratando?</a>
-                        <p>Artículo independiente.</p>
-                    </div>
-                </div>
-
-            </div>
-
-        </div> 
-
-    </div> 
-
-    <footer class="footer">
-
-        <div>
-            <img src="../images/image1.png" class="imagenizq">
+    <div class="container" style="margin-top:2rem;">
+      <div class="download-box">
+        <h3>Material recomendado</h3>
+        <div class="download-item">
+          <div class="mini-icon">G</div>
+          <div>
+            <a href="https://www.igualdad.gob.es/wp-content/uploads/EEVM_LF.pdf" target="_blank" rel="noreferrer">Prevención contra el machismo</a>
+            <p>Artículo institucional sobre prevención y educación.</p>
+          </div>
         </div>
 
-        <div>
-
-            <section class="direccionfoot">
-                <strong>Dirección</strong><br><br>
-                C/ Manuel de Rodas, 34 <br>
-                La Rinconada <br>
-                41309 <br>
-                (Sevilla)
-            </section>
-
-            <section class="contactofoot">
-                <strong>Contacto</strong><br><br>
-                vidaslibres@figma.com <br>
-                Instagram: vidaslibres <br>
-                X: vidaslibres <br>
-            </section>
-
-            <section class="derechos">
-                Todos los derechos reservados
-            </section>
-
+        <div class="download-item">
+          <div class="mini-icon">A</div>
+          <div>
+            <a href="https://mujereslibresmujeresenpaz.org/foro-modulo-5-testimonios-de-victimas-de-violencia-vicaria-y-violencia-de-genero-institucional" target="_blank" rel="noreferrer">Ayuda, ¿me están maltratando?</a>
+            <p>Recurso formativo y reflexivo sobre detección temprana.</p>
+          </div>
         </div>
+      </div>
+    </div>
+  </main>
 
-    </footer>
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="../index.html" class="brand" aria-label="Vidas Libres">
+          <img src="../images/image1.png" alt="Logo Vidas Libres">
+          <span>Vidas Libres</span>
+        </a>
+      </div>
 
+      <nav class="footer-links" aria-label="Enlaces del pie de página">
+        <a href="quienessomos.html">Quiénes somos</a>
+        <a href="pideayuda.html">Pide ayuda</a>
+        <a href="NOTICIAS.html">Noticias</a>
+        <a href="formulario.html">Contacto</a>
+      </nav>
+
+      <p>© 2026 Vidas Libres. Todos los derechos reservados.</p>
+    </div>
+  </footer>
 </body>
 </html>
+

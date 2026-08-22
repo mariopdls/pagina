@@ -1,132 +1,192 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página de ejemplo</title>
-    <link rel="stylesheet" href="styles/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Asociación Vidas Libres. Acompañamiento, información y apoyo frente a la violencia de género.">
+  <title>Vidas Libres | Asociación</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/style.css">
 </head>
-
 <body>
-    <div class="main-container">
+  <header class="site-header">
+    <div class="container nav">
+      <a href="index.html" class="brand" aria-label="Inicio Vidas Libres">
+        <img src="images/image1.png" alt="Logo Vidas Libres">
+        <span>Vidas Libres</span>
+      </a>
 
-        <aside class="sidebar">
-            <div class="logo-box">
-                <img src="images/image1.png" height="120" id="logo" name="logo" class="logo">
-                <h1>Vidas libres, <br>voces valientes.</h1>
-            </div>
+      <nav class="main-nav" aria-label="Navegación principal">
+        <a href="index.html">Inicio</a>
+        <a href="html/quienessomos.html">Quiénes somos</a>
+        <a href="html/pideayuda.html">Pide ayuda</a>
+        <a href="html/NOTICIAS.html">Noticias</a>
+        <a href="html/EDUCACION.html">Educación</a>
+        <a href="html/formulario.html">Contacto</a>
+      </nav>
 
-            <div class="seccion">
-                <input type="button" id="buttoncito" class="buttoncito" value="¿Quiénes somos?" onclick="location.href='html/quienessomos.html'">
-                <p>Que todas tengamos voz.</p>
-            </div>
-
-            <div class="seccion">
-                <input type="button" id="button1" class="boton1" value="Formulario de contacto" onclick="location.href='html/formulario.html'">
-            </div>
-        </aside>
-
-        <main class="content">
-
-            <section class="descripcion">
-                <img src="images/image5.png" class="imagen5" id="punios">
-                <h3 class="texto-descripcion">
-                    Nuestra misión, guiada por la empatía y la justicia, crea un refugio de apoyo y esperanza. 
-                    Descubre la fuerza de las mujeres y el poder de una comunidad unida contra la violencia de género.
-                </h3>
-            </section>
-
-            <section class="colaboradores">
-                <h3>Empresas colaboradoras:</h3>
-                <img src="images/image6.jpeg" class="imagen6" id="colaboradores">
-            </section>
-
-            <section class="definicion">
-                <h2 class="titulo-definicion" onclick="location.href='APRENDE/APRENDE.html'">
-                    ¿Qué es la violencia de género?
-                </h2>
-                <p class="subtexto-definicion">Encuentra apoyo en los recursos que te ofrecemos:</p>
-            </section>
-
-            <section class="recursos">
-                <div class="caja">
-                    <button class="botonayuda">
-                        <img src="images/image7.png" alt="imagenayuda" onclick="location.href='html/pideayuda.html'">
-                    </button>
-                    <p>Pide ayuda</p>
-                </div>
-
-                <div class="caja">
-                    <button class="botonnoticias">
-                        <img src="images/image8.png" alt="imagennoticias" onclick="location.href='html/NOTICIAS.html'">
-                    </button>
-                    <p>Noticias</p>
-                </div>
-
-                <div class="caja">
-                    <button class="botonexp">
-                        <img src="images/image9.png" alt="imagenexp" width="190" onclick="location.href='html/EXPERIENCIAS.html'">
-                    </button>
-                    <p>Experiencias</p>
-                </div>
-
-                <div class="caja">
-                    <button class="botoneducacion">
-                        <img src="images/image10.png" width="150" alt="imageneducacion" onclick="location.href='html/EDUCACION.html'">
-                    </button>
-                    <p>Educación</p>
-                </div>
-            </section>
-
-            <section class="violeta">
-                <h1 class="titulovioleta">Iniciativas y puntos violeta</h1>
-                <img src="images/image11.PNG" class="puntoimage" id="imagenvioleta" onclick="location.href='html/pideayuda.html'">
-                <h3>Recuerda: Existen los puntos violeta.</h3>
-                <p class="texto-violeta">
-                    Son espacios seguros creados para informar, acompañar y apoyar a personas que sufren o presencian violencia de género. 
-                    Funcionan como lugares de referencia donde cualquier persona puede recibir orientación sobre qué hacer, cómo actuar o 
-                    a dónde acudir en caso de violencia machista.
-                </p>
-            </section>
-
-            <section class="faqs">
-                <h1 class="titulo-faqs">FAQs:</h1>
-                <img src="images/image12.PNG" alt="faqs" class="imagen-faqs">
-            </section>
-
-            <section class="final">
-                <img src="images/image13.PNG" alt="vivasnosqueremos" class="imagen-final">
-            </section>
-
-        </main>
+      <a class="btn btn-primary" href="html/formulario.html">Contactar</a>
     </div>
+  </header>
 
-    <footer class="footer">
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
         <div>
-            <img src="images/image1.png" class="imagenizq">
+          <p class="eyebrow">Asociación feminista</p>
+          <h1>Una comunidad que acompaña, escucha y empodera.</h1>
+          <p class="lead">
+            En Vidas Libres trabajamos para visibilizar la violencia de género, ofrecer apoyo real y crear espacios seguros donde cada mujer pueda vivir con libertad, dignidad y autonomía.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="html/quienessomos.html">Conoce nuestra misión</a>
+            <a class="btn btn-secondary" href="html/pideayuda.html">Necesito ayuda</a>
+          </div>
+
+          <ul class="stats" aria-label="Estadísticas de apoyo">
+            <li>
+              <strong>+2.000</strong>
+              <span>personas atendidas</span>
+            </li>
+            <li>
+              <strong>24/7</strong>
+              <span>espacios de escucha</span>
+            </li>
+            <li>
+              <strong>100%</strong>
+              <span>apoyo confidencial</span>
+            </li>
+          </ul>
         </div>
 
-        <div class="info-footer">
-            <section class="direccionfoot">
-                <strong>Dirección</strong><br><br>
-                C/ Manuel de Rodas, 34 <br>
-                La Rinconada <br>
-                41309 <br>
-                (Sevilla)
-            </section>
-
-            <section class="contactofoot">
-                <strong>Contacto</strong><br><br>
-                vidaslibres@figma.com <br>
-                Instagram: vidaslibres <br>
-                X: vidaslibres
-            </section>
-
-            <section class="derechos">
-                Todos los derechos reservados
-            </section>
+        <div class="visual-card">
+          <img src="images/image5.png" alt="Mujeres unidas apoyándose mutua">
+          <div class="badge">Apoyo cercano y humano</div>
         </div>
-    </footer>
+      </div>
+    </section>
 
+    <section>
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">Qué hacemos</p>
+          <h2>Ayuda, educación y prevención desde la sororidad.</h2>
+        </div>
+
+        <div class="value-grid">
+          <article class="card">
+            <div class="card-icon">01</div>
+            <h3>Acompañamiento</h3>
+            <p>Escucha activa, orientación y acompañamiento emocional para mujeres que atraviesan situaciones de violencia o vulnerabilidad.</p>
+          </article>
+
+          <article class="card">
+            <div class="card-icon">02</div>
+            <h3>Educación</h3>
+            <p>Recursos, talleres y contenidos para prevenir la violencia machista y promover relaciones sanas y respetuosas.</p>
+          </article>
+
+          <article class="card">
+            <div class="card-icon">03</div>
+            <h3>Acción comunitaria</h3>
+            <p>Visibilidad, sensibilización y trabajo conjunto con entidades, servicios y vecinas para generar cambios reales.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container mission-grid">
+        <div class="mission-image">
+          <img src="images/image13.PNG" alt="Trabajo de la asociación">
+        </div>
+
+        <div class="content-panel">
+          <p class="section-tag">Nuestra misión</p>
+          <h2>Construir una sociedad donde nadie viva con miedo.</h2>
+          <p>
+            Queremos poner a la escucha, la dignidad y la igualdad en el centro de cada acción. Trabajamos para que las mujeres puedan denunciar, pedir ayuda y recuperar su autonomía sin sentirse solas.
+          </p>
+          <p>
+            La violencia de género no es un problema individual: es una realidad social que requiere respuesta colectiva, información y acompañamiento constante.
+          </p>
+
+          <ul class="list-check">
+            <li><strong>✓</strong> Ofrecer apoyo emocional y práctico a mujeres en situación de riesgo.</li>
+            <li><strong>✓</strong> Desarrollar campañas de sensibilización y prevención.</li>
+            <li><strong>✓</strong> Crear espacios de encuentro, confianza y reparación.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">Recursos</p>
+          <h2>Herramientas útiles para acompañarte.</h2>
+        </div>
+
+        <div class="resource-grid">
+          <article class="resource-card">
+            <div class="icon">✦</div>
+            <h3>Pide ayuda</h3>
+            <p>Recursos y orientación inmediata para actuar con seguridad y buscar apoyo profesional.</p>
+          </article>
+
+          <article class="resource-card">
+            <div class="icon">▣</div>
+            <h3>Noticias</h3>
+            <p>Actualidad, información y análisis sobre violencia de género y derechos de las mujeres.</p>
+          </article>
+
+          <article class="resource-card">
+            <div class="icon">◎</div>
+            <h3>Experiencias</h3>
+            <p>Historias de resistencia, recuperación y empoderamiento que nos recuerdan que la salida existe.</p>
+          </article>
+
+          <article class="resource-card">
+            <div class="icon">☰</div>
+            <h3>Educación</h3>
+            <p>Material formativo pensado para prevenir, informar y reforzar relaciones respetuosas.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container cta-box">
+        <div>
+          <p class="section-tag">Contacto</p>
+          <h2>Si necesitas hablar, estamos aquí.</h2>
+        </div>
+        <a class="btn btn-primary" href="html/formulario.html">Escríbenos</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="index.html" class="brand" aria-label="Vidas Libres">
+          <img src="images/image1.png" alt="Logo Vidas Libres">
+          <span>Vidas Libres</span>
+        </a>
+      </div>
+
+      <nav class="footer-links" aria-label="Enlaces del pie de página">
+        <a href="html/quienessomos.html">Quiénes somos</a>
+        <a href="html/pideayuda.html">Pide ayuda</a>
+        <a href="html/NOTICIAS.html">Noticias</a>
+        <a href="html/formulario.html">Contacto</a>
+      </nav>
+
+      <p>© 2026 Vidas Libres. Todos los derechos reservados.</p>
+    </div>
+  </footer>
 </body>
 </html>

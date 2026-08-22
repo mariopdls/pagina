@@ -1,67 +1,126 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página de ejemplo</title>
-    <link rel="stylesheet" href="../styles/formulario.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Formulario de contacto de la asociación Vidas Libres.">
+  <title>Contacto | Vidas Libres</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles/style.css">
 </head>
-
 <body>
+  <header class="site-header">
+    <div class="container nav">
+      <a href="../index.html" class="brand" aria-label="Inicio Vidas Libres">
+        <img src="../images/image1.png" alt="Logo Vidas Libres">
+        <span>Vidas Libres</span>
+      </a>
 
-    <div class="main-container">
+      <nav class="main-nav" aria-label="Navegación principal">
+        <a href="../index.html">Inicio</a>
+        <a href="quienessomos.html">Quiénes somos</a>
+        <a href="pideayuda.html">Pide ayuda</a>
+        <a href="NOTICIAS.html">Noticias</a>
+        <a href="EDUCACION.html">Educación</a>
+        <a href="formulario.html">Contacto</a>
+      </nav>
 
-        <aside class="sidebar">
+      <a class="btn btn-primary" href="formulario.html">Contactar</a>
+    </div>
+  </header>
+
+  <main class="page-shell">
+    <div class="container page-hero">
+      <p class="eyebrow">Contacto</p>
+      <h1>Hablemos contigo y cuidemos la primera respuesta.</h1>
+    </div>
+
+    <div class="container contact-grid">
+      <div class="contact-panel">
+        <form class="contact-form">
+          <label>
+            <span>Nombre</span>
+            <input type="text" placeholder="Tu nombre">
+          </label>
+
+          <label>
+            <span>Email</span>
+            <input type="email" placeholder="tuemail@ejemplo.com">
+          </label>
+
+          <label>
+            <span>Asunto</span>
+            <select>
+              <option>Quiero hablar con la asociación</option>
+              <option>Necesito ayuda</option>
+              <option>Quiero colaborar</option>
+              <option>Consultas sobre prevención</option>
+            </select>
+          </label>
+
+          <label>
+            <span>Mensaje</span>
+            <textarea placeholder="Cuéntanos tu situación o consulta..."></textarea>
+          </label>
+
+          <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+        </form>
+      </div>
+
+      <aside class="emergency-panel">
+        <p class="section-tag">Canales de ayuda</p>
+        <h2>Nos tomamos tu consulta en serio.</h2>
+        <p>Si prefieres hablar directamente, puedes contactar con la asociación por correo o a través de redes sociales. También te orientamos sobre recursos de apoyo y servicios especializados.</p>
+
+        <div class="emergency-list">
+          <div class="emergency-item">
+            <div class="icon">✉</div>
             <div>
-                <img src="../images/image1.png" height="120" id="logo" class="logo-img" alt="Logo Vidas Libres" onclick="location.href='../index.html'">
-                <h1 class="titulo-sidebar">Formulario de <br> contacto.</h1>
-                <h4 class="volver-inicio" onclick="location.href='../index.html'">Volver a inicio</h4>
+              <strong>Email</strong><br>
+              vidaslibres@figma.com
             </div>
-        </aside>
+          </div>
 
-        <div class="content">
+          <div class="emergency-item">
+            <div class="icon">◎</div>
+            <div>
+              <strong>Instagram</strong><br>
+              @vidaslibres
+            </div>
+          </div>
 
-            <h1 class="quienes">¿Quiénes somos?</h1>
-            <iframe class=formu src="https://docs.google.com/forms/d/e/1FAIpQLScceMK3NUotnPCSt22uKkaEcC8GMH_x3nJp85p14SbOIazfRA/viewform?embedded=true" width="640" height="853" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
-            <p class="desc"> Si quieres ponerte en contacto con nosotros, rellena el formulario.</p>
-            <p class="nos"> Nos pondremos en contacto contigo lo antes posible para solucionar todas las dudas o consultas que tengas.</p>
-        </div> 
-
-    </div> 
-
-
-    <footer class="footer">
-
-        <div>
-            <img src="../images/image1.png" class="imagenizq" alt="Logo pie de página">
+          <div class="emergency-item">
+            <div class="icon">X</div>
+            <div>
+              <strong>X</strong><br>
+              @vidaslibres
+            </div>
+          </div>
         </div>
+      </aside>
+    </div>
+  </main>
 
-        <div>
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="../index.html" class="brand" aria-label="Vidas Libres">
+          <img src="../images/image1.png" alt="Logo Vidas Libres">
+          <span>Vidas Libres</span>
+        </a>
+      </div>
 
-            <section class="direccionfoot">
-                <strong>Dirección</strong><br><br>
-                C/ Manuel de Rodas, 34 <br>
-                La Rinconada <br>
-                41309 <br>
-                (Sevilla)
-            </section>
+      <nav class="footer-links" aria-label="Enlaces del pie de página">
+        <a href="quienessomos.html">Quiénes somos</a>
+        <a href="pideayuda.html">Pide ayuda</a>
+        <a href="NOTICIAS.html">Noticias</a>
+        <a href="formulario.html">Contacto</a>
+      </nav>
 
-            <section class="contactofoot">
-                <strong>Contacto</strong><br><br>
-                vidaslibres@figma.com <br>
-                Instagram: vidaslibres <br>
-                X: vidaslibres <br>
-            </section>
-
-            <section class="derechos">
-                Todos los derechos reservados
-            </section>
-
-        </div>
-
-    </footer>
-
+      <p>© 2026 Vidas Libres. Todos los derechos reservados.</p>
+    </div>
+  </footer>
 </body>
-
 </html>
